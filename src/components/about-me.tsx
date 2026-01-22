@@ -38,8 +38,8 @@ export default function AboutMe() {
           {/* About Section */}
           <div className="space-y-10 p-8 max-w-2xl">
             <div>
-              <h2 className="font-semibold text-lg text-gray-900 mb-4">About Me</h2>
-              <p className="text-gray-900 tracking-wide">
+              <h2 className="font-semibold text-lg text-stone-900 mb-4">About Me</h2>
+              <p className="tracking-wide">
                 Brooklyn-based software engineer committed to building a
                 resilient future. Over 5 years of experience delivering
                 enterprise and consumer-facing products in the automotive and
@@ -50,11 +50,11 @@ export default function AboutMe() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg text-gray-900 mb-4">Contact</h3>
+              <h3 className="font-semibold text-lg mb-4">Contact</h3>
               <div>
                 <a
                   href="mailto:matthew.jsalvador@gmail.com"
-                  className="text-gray-900 tracking-wide"
+                  className="tracking-wide"
                 >
                   matthew.jsalvador@gmail.com
                 </a>
@@ -62,12 +62,12 @@ export default function AboutMe() {
               <div>
                 <a
                   href="tel:+19176640131"
-                  className="text-gray-900 tracking-wide"
+                  className="tracking-wide"
                 >
                   (917) 664-0131
                 </a>
               </div>
-              <p className="text-gray-900 tracking-wide">Brooklyn, NY</p>
+              <p className="tracking-wide">Brooklyn, NY</p>
             </div>
 
             <div>
@@ -83,13 +83,13 @@ export default function AboutMe() {
 
           {/* Contact Form */}
           <div className="space-y-10 p-8 max-w-3xl">
-            <h2 className="font-semibold text-lg text-gray-900 mb-4">Let's Get In Touch</h2>
+            <h2 className="font-semibold text-lg mb-4">Let's Get In Touch</h2>
             <form onSubmit={handleSubmit} className="space-y-4 max-w-lg">
               {/* Name */}
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium mb-2"
                 >
                   Name
                 </label>
@@ -109,7 +109,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium mb-2"
                 >
                   Email
                 </label>
@@ -129,7 +129,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium mb-2"
                 >
                   Message
                 </label>
@@ -145,7 +145,7 @@ export default function AboutMe() {
                 />
               </div>
 
-              <Button type="submit" size="lg" className="w-full mt-4">
+              <Button type="submit" size="lg" className="w-full mt-4 bg-stone-900 text-gray-200">
                 Send Message
               </Button>
             </form>
