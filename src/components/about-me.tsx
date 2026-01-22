@@ -39,7 +39,7 @@ export default function AboutMe() {
           <div className="space-y-10 p-8 max-w-2xl">
             <div>
               <h2 className="font-semibold text-lg text-stone-900 mb-4">About Me</h2>
-              <p className="tracking-wide">
+              <p className="leading-tight">
                 Brooklyn-based software engineer committed to building a
                 resilient future. Over 5 years of experience delivering
                 enterprise and consumer-facing products in the automotive and
@@ -54,7 +54,7 @@ export default function AboutMe() {
               <div>
                 <a
                   href="mailto:matthew.jsalvador@gmail.com"
-                  className="tracking-wide"
+                  className="leading-tight"
                 >
                   matthew.jsalvador@gmail.com
                 </a>
@@ -62,19 +62,19 @@ export default function AboutMe() {
               <div>
                 <a
                   href="tel:+19176640131"
-                  className="tracking-wide"
+                  className="leading-tight"
                 >
                   (917) 664-0131
                 </a>
               </div>
-              <p className="tracking-wide">Brooklyn, NY</p>
+              <p className="leading-tight">Brooklyn, NY</p>
             </div>
 
             <div>
               <a
                 href="/resume.pdf"
                 download="matthew-salvador-resume.pdf"
-                className="underline"
+                className="underline leading-tight"
               >
                 Download Resume (PDF)
               </a>
@@ -89,7 +89,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 leading-tight"
                 >
                   Name
                 </label>
@@ -101,7 +101,7 @@ export default function AboutMe() {
                   placeholder="Your name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="px-4 py-2"
+                  className="px-4 py-2 leading-tight"
                 />
               </div>
 
@@ -109,7 +109,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 leading-tight"
                 >
                   Email
                 </label>
@@ -121,7 +121,7 @@ export default function AboutMe() {
                   placeholder="Your email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="px-4 py-2"
+                  className="px-4 py-2 leading-tight"
                 />
               </div>
 
@@ -129,7 +129,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 leading-tight"
                 >
                   Message
                 </label>
@@ -141,11 +141,11 @@ export default function AboutMe() {
                   rows={5}
                   value={formData.message}
                   onChange={handleChange}
-                  className="px-4 py-2"
+                  className="px-4 py-2 leading-tight"
                 />
               </div>
 
-              <Button type="submit" size="lg" className="w-full mt-4 bg-stone-900 text-gray-200">
+              <Button type="submit" size="lg" className="w-full mt-4 bg-stone-900 text-gray-200 leading-tight">
                 Send Message
               </Button>
             </form>
