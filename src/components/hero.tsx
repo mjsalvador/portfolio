@@ -29,13 +29,13 @@ export default function Hero() {
           <a href="#projects" className="underline transition-colors">
             Projects↓
           </a>
-          <a href="#work" className="underline transition-colors">
+          {/* <a href="#work" className="underline transition-colors">
             Work↓
           </a>
           <a href="#technologies" className="underline transition-colors">
             Technologies↓
-          </a>
-          <a href="#about" className="underline transition-colors">
+          </a> */}
+          <a href="#about-me" className="underline transition-colors">
             About me↓
           </a>
         </div>
