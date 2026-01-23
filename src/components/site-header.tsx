@@ -5,10 +5,10 @@ export default function SiteHeader() {
 
   const navLinks = [
     { label: "Projects", href: "#projects" },
-    { label: "Work", href: "#work" },
-    { label: "Technologies", href: "#technologies" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    // { label: "Work", href: "#work" },
+    // { label: "Technologies", href: "#technologies" },
+    { label: "About", href: "#about-me" },
+    // { label: "Contact", href: "#contact" },
   ];
 
   return (
