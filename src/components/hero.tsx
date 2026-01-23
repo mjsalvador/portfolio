@@ -15,7 +15,7 @@ export default function Hero() {
 
         {/* Description */}
         <div className="mb-12 max-w-6xl">
-          <p className="text-3xl font-light tracking-tight leading-tight">
+          <p className="lg:text-3xl text-2xl font-light tracking-tight leading-tight">
             Bridging the gap between modern-day technology and a resilient
             future. Over 5 years of experience building enterprise and
             consumer-facing products in the automotive and education industries.
