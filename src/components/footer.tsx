@@ -1,10 +1,10 @@
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { label: 'GitHub', href: 'https://github.com/mjsalvador' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/in/matthewsalvador' },
-  ]
+    { label: "GitHub", href: "https://github.com/mjsalvador" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/matthewsalvador" },
+  ];
 
   return (
     <footer className="bg-stone-900 py-8 px-8 text-gray-200">
@@ -32,5 +32,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

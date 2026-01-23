@@ -38,7 +38,9 @@ export default function AboutMe() {
           {/* About Section */}
           <div className="space-y-10 p-8 max-w-2xl">
             <div>
-              <h2 className="font-semibold text-lg text-stone-900 mb-4">About Me</h2>
+              <h2 className="font-semibold text-lg text-stone-900 mb-4">
+                About Me
+              </h2>
               <p className="leading-tight">
                 Brooklyn-based software engineer committed to building a
                 resilient future. Over 5 years of experience delivering
@@ -60,10 +62,7 @@ export default function AboutMe() {
                 </a>
               </div>
               <div>
-                <a
-                  href="tel:+19176640131"
-                  className="leading-tight"
-                >
+                <a href="tel:+19176640131" className="leading-tight">
                   (917) 664-0131
                 </a>
               </div>
@@ -145,7 +144,11 @@ export default function AboutMe() {
                 />
               </div>
 
-              <Button type="submit" size="lg" className="w-full mt-4 bg-stone-900 text-gray-200 leading-tight">
+              <Button
+                type="submit"
+                size="lg"
+                className="w-full mt-4 bg-stone-900 text-gray-200 leading-tight"
+              >
                 Send Message
               </Button>
             </form>
