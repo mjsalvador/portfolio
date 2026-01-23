@@ -1,38 +1,38 @@
-import { useState } from "react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
+// import { useState } from "react";
+// import { Input } from "@/components/ui/input";
+// import { Button } from "@/components/ui/button";
+// import { Textarea } from "@/components/ui/textarea";
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-}
+// interface FormData {
+//   name: string;
+//   email: string;
+//   message: string;
+// }
 
 export default function AboutMe() {
-  const [formData, setFormData] = useState<FormData>({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState<FormData>({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
+  // const handleChange = (
+  //   e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  // ) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prev) => ({
+  //     ...prev,
+  //     [name]: value,
+  //   }));
+  // };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted: ", formData);
-  };
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   console.log("Form submitted: ", formData);
+  // };
 
   return (
-    <section className="mb-20">
+    <section id="about-me" className="mb-20">
       <div>
         <div className="grid grid-cols-1 text-sm md:grid-cols-2">
           {/* About Section */}
@@ -42,12 +42,10 @@ export default function AboutMe() {
                 About Me
               </h2>
               <p className="leading-tight">
-                Brooklyn-based software engineer committed to building a
-                resilient future. Over 5 years of experience delivering
-                enterprise and consumer-facing products in the automotive and
-                education industries, with work spanning diverse domains and
-                challenges. Always on my toes; a curious explorer with many
-                pursuits.
+                Brooklyn-based software engineer with too many interests and a
+                habit of going deep on whatever has my attention lately. Drawn
+                to work that makes technology feel more human than complicated.
+                Always on my toes; a curious explorer with many pursuits.
               </p>
             </div>
 
@@ -81,10 +79,10 @@ export default function AboutMe() {
           </div>
 
           {/* Contact Form */}
-          <div className="space-y-10 p-8 max-w-3xl">
+          {/* <div className="space-y-10 p-8 max-w-3xl">
             <h2 className="font-semibold text-lg mb-4">Let's Get In Touch</h2>
             <form onSubmit={handleSubmit} className="space-y-4 max-w-lg">
-              {/* Name */}
+
               <div>
                 <label
                   htmlFor="name"
@@ -104,7 +102,7 @@ export default function AboutMe() {
                 />
               </div>
 
-              {/* Email */}
+
               <div>
                 <label
                   htmlFor="email"
@@ -124,7 +122,7 @@ export default function AboutMe() {
                 />
               </div>
 
-              {/* Message */}
+
               <div>
                 <label
                   htmlFor="message"
@@ -152,7 +150,7 @@ export default function AboutMe() {
                 Send Message
               </Button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
