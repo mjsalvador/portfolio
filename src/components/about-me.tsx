@@ -38,8 +38,10 @@ export default function AboutMe() {
           {/* About Section */}
           <div className="space-y-10 p-8 max-w-2xl">
             <div>
-              <h2 className="font-semibold text-lg text-gray-900 mb-4">About Me</h2>
-              <p className="text-gray-900 tracking-wide">
+              <h2 className="font-semibold text-lg text-stone-900 mb-4">
+                About Me
+              </h2>
+              <p className="leading-tight">
                 Brooklyn-based software engineer committed to building a
                 resilient future. Over 5 years of experience delivering
                 enterprise and consumer-facing products in the automotive and
@@ -50,31 +52,28 @@ export default function AboutMe() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg text-gray-900 mb-4">Contact</h3>
+              <h3 className="font-semibold text-lg mb-4">Contact</h3>
               <div>
                 <a
                   href="mailto:matthew.jsalvador@gmail.com"
-                  className="text-gray-900 tracking-wide"
+                  className="leading-tight"
                 >
                   matthew.jsalvador@gmail.com
                 </a>
               </div>
               <div>
-                <a
-                  href="tel:+19176640131"
-                  className="text-gray-900 tracking-wide"
-                >
+                <a href="tel:+19176640131" className="leading-tight">
                   (917) 664-0131
                 </a>
               </div>
-              <p className="text-gray-900 tracking-wide">Brooklyn, NY</p>
+              <p className="leading-tight">Brooklyn, NY</p>
             </div>
 
             <div>
               <a
                 href="/resume.pdf"
                 download="matthew-salvador-resume.pdf"
-                className="underline"
+                className="underline leading-tight"
               >
                 Download Resume (PDF)
               </a>
@@ -83,13 +82,13 @@ export default function AboutMe() {
 
           {/* Contact Form */}
           <div className="space-y-10 p-8 max-w-3xl">
-            <h2 className="font-semibold text-lg text-gray-900 mb-4">Let's Get In Touch</h2>
+            <h2 className="font-semibold text-lg mb-4">Let's Get In Touch</h2>
             <form onSubmit={handleSubmit} className="space-y-4 max-w-lg">
               {/* Name */}
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium mb-2 leading-tight"
                 >
                   Name
                 </label>
@@ -101,7 +100,7 @@ export default function AboutMe() {
                   placeholder="Your name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="px-4 py-2"
+                  className="px-4 py-2 leading-tight"
                 />
               </div>
 
@@ -109,7 +108,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium mb-2 leading-tight"
                 >
                   Email
                 </label>
@@ -121,7 +120,7 @@ export default function AboutMe() {
                   placeholder="Your email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="px-4 py-2"
+                  className="px-4 py-2 leading-tight"
                 />
               </div>
 
@@ -129,7 +128,7 @@ export default function AboutMe() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-2"
+                  className="block text-sm font-medium mb-2 leading-tight"
                 >
                   Message
                 </label>
@@ -141,11 +140,15 @@ export default function AboutMe() {
                   rows={5}
                   value={formData.message}
                   onChange={handleChange}
-                  className="px-4 py-2"
+                  className="px-4 py-2 leading-tight"
                 />
               </div>
 
-              <Button type="submit" size="lg" className="w-full mt-4">
+              <Button
+                type="submit"
+                size="lg"
+                className="w-full mt-4 bg-stone-900 text-gray-200 leading-tight"
+              >
                 Send Message
               </Button>
             </form>
