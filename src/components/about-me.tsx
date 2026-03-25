@@ -70,7 +70,8 @@ export default function AboutMe() {
             <div>
               <a
                 href="/resume.pdf"
-                download="matthew-salvador-resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="underline leading-tight"
               >
                 Download Resume (PDF)

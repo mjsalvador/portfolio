@@ -4,11 +4,11 @@ export default function Hero() {
       <div className="max-w-4xl">
         {/* Main Headline */}
         <div className="mb-8 tracking-tight font-light">
-          <h1 className="leading-tight">Hey there, I'm Matthew Salvador</h1>
+          <h1 className="leading-tight">Hey there, I'm Matthew Salvador,</h1>
           <p>
             a Software Engineer focused on delivering{" "}
             <span className="font-semibold ">
-              scalable, data-driven platforms
+              scalable, data-driven platforms.
             </span>
           </p>
         </div>
@@ -16,11 +16,12 @@ export default function Hero() {
         {/* Description */}
         <div className="mb-12 max-w-6xl">
           <p className="lg:text-3xl text-2xl font-light tracking-tight leading-tight">
-            Bridging the gap between modern-day technology and a resilient
-            future. Over 5 years of experience building enterprise and
-            consumer-facing products in the automotive and education industries.
-            Previously worked at Volkswagen Group of America building internal
-            platforms that powered connected-vehicle and analytics workflows.
+            Bridging the gap between modern technology and a resilient future.
+            Over 5 years of experience building enterprise and consumer-facing
+            products in the automotive and education industries. Most recently
+            at Volkswagen Group of America, building full-stack platforms and
+            internal developer tooling spanning sustainable charging,
+            connected-vehicle pipelines, and analytics workflows.
           </p>
         </div>
 
