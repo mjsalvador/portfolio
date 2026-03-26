@@ -48,13 +48,16 @@ const ProjectCard = ({
           <Carousel>
             <CarouselContent className="items-center">
               {images.map(([alt, src], idx) => (
-                <CarouselItem key={idx} className="basis-full">
-                  <img src={src} alt={alt} className="" />
+                <CarouselItem key={idx}>
+                  <img
+                    src={src}
+                    alt={alt}
+                    className="w-full max-w-sm md:max-w-md mx-auto h-auto object-cover rounded"
+                  />
                 </CarouselItem>
               ))}
             </CarouselContent>
 
-            {/* Optional: hide controls if only 1 image */}
             {images.length > 1 && (
               <>
                 <CarouselPrevious />
